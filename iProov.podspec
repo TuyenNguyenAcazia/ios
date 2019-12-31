@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     'OTHER_SWIFT_FLAGS' => '-DGLES' # Required for GPUImage2
   }
   
-  s.dependency 'KeychainAccess', '~> 4.1.0'
+  # s.dependency 'KeychainAccess', '~> 4.1.0'
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency 'SwiftyJSON', '~> 4.0.0'
 
